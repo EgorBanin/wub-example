@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "180fcea3d88bddb404486793ff053231",
+    "packages": [
+        {
+            "name": "eb/func_all",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EgorBanin/func_all.git",
+                "reference": "2339ae7a17c29109dae97b23ba345dec943d5a49"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EgorBanin/func_all/zipball/2339ae7a17c29109dae97b23ba345dec943d5a49",
+                "reference": "2339ae7a17c29109dae97b23ba345dec943d5a49",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "dist/func_all.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "UNLICENSE"
+            ],
+            "time": "2019-03-21T11:23:27+00:00"
+        },
+        {
+            "name": "eb/wub",
+            "version": "dev-framework",
+            "dist": {
+                "type": "path",
+                "url": "../wub",
+                "reference": "410590f6b3fbfd559c194e2f3ed9af87de8ba14c"
+            },
+            "require": {
+                "eb/func_all": "^1.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "wub\\": "src/"
+                }
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "eb/wub": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

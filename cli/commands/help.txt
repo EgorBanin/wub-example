@@ -1,0 +1,6 @@
+Usage php cli.php <command> [<args>]
+
+commands:
+
+- db -- инициализация, посев базы данных
+- posts -- управление публикациями

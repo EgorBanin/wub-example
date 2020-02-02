@@ -1,0 +1,17 @@
+{
+    "name": "eb/wub-example",
+    "require": {
+        "eb/wub": "dev-framework"
+    },
+    "repositories": {
+        "wub": {
+            "type": "path",
+            "url": "../wub"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "": ""
+        }
+    }
+}
